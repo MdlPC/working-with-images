@@ -3,6 +3,10 @@ from PIL import Image
 from tkinter import filedialog
 
 def tiff_to_jpeg(calidad=75):
+    '''
+    Allows you to choose a folder in order to transform tiff images within the folder into new jpeg files 
+    (creates a new file that shares name with initial tiff document)
+    '''
     directorio = filedialog.askdirectory()
 
     for archivo in os.listdir(directorio):
