@@ -1,3 +1,6 @@
+'''
+requires PIL for image transformation
+'''
 import os
 from PIL import Image
 from tkinter import filedialog
